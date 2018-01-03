@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/ssh -i deploykey2 -vvv -o StrictHostKeyChecking=no  "$@"
