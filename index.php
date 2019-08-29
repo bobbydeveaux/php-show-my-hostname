@@ -27,7 +27,7 @@ $colorArray = stringToColor($hostname);
 $contrastColor = contrastColor($colorArray);
 $color = "rgb($colorArray[0],$colorArray[1],$colorArray[2])";
 $text = "rgb($contrastColor[0],$contrastColor[1],$contrastColor[2])";
-sleep(35);
+sleep(65);
 
 ?>
 <link rel = "stylesheet" type = "text/css" href = "style.css" />
